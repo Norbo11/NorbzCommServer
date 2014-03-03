@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server>
+  <chatrooms>
+    <chat>
+      <name>Global</name>
+      <owner>Norbo11</owner>
+      <operators>
+        <op>Norbo11</op>
+      </operators>
+    </chat>
+    <chat>
+      <name>Trade</name>
+      <owner />
+      <operators />
+    </chat>
+    <chat>
+      <name>Help</name>
+      <owner />
+      <operators />
+    </chat>
+  </chatrooms>
+</server>

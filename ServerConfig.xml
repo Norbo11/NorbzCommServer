@@ -18,5 +18,12 @@
       <owner />
       <operators />
     </chat>
+    <chat>
+      <name>leoisafaggot</name>
+      <owner>Leo</owner>
+      <operators>
+        <op>adsadsd</op>
+      </operators>
+    </chat>
   </chatrooms>
 </server>

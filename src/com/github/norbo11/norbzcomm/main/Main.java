@@ -92,6 +92,7 @@ public class Main {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         initialize();
+        ServerConfig.createConifg();
         ServerConfig.loadConfig();
 
         frame.setVisible(true);

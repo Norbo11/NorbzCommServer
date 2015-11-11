@@ -46,6 +46,16 @@ public class ServerConfig {
         }
     }
 
+    public static void createConifg() {
+        File file = new File(DEFAULT_PATH);
+        
+        if (!file.exists()) try {
+            file.createNewFile();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public static void saveConfig() {
         Element chats = new Element("chatrooms");
         for (Object chatObject : ChatRoomsCategory.getListModel().toArray()) {
